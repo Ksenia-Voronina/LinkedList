@@ -141,7 +141,7 @@ void LinkedList<T>::AddBegin(T _data)
 
     if (size > 0)
     {
-        head->prev = t; //непон
+        head->prev = t;
         head = t;
     }
     else
